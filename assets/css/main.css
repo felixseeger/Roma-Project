@@ -1,0 +1,271 @@
+
+
+
+@font-face {
+  font-family: "Santio_bold";
+  src: url("../fonts/Santio_bold.otf");
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header > p {
+  text-align: right;
+  color: #fff;
+  font-size: 2em;
+  padding: 1em;
+  margin-top: 0;
+  height: 30vh;
+}
+
+header > p a {
+  font-family: "Fira sans", sans serif;
+  color: #e7bc0e;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header img {
+  height: 13px;
+  width: 13px;
+  padding: 0.3em;
+}
+
+/*  Main Section 1 */
+
+section {
+  background: url(../img/cleo-topper.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-bottom: 200px;
+  
+}
+
+section:nth-of-type(1) > h1 {
+  color: #fff;
+  text-shadow: 2px 2px black;
+  margin-left: 3em;
+  font-size: 4em;
+  font-family: "Santio_bold", sans-serif;
+  font-weight: 200;
+  margin-top: 0;
+  width: 50%;
+}
+
+section:nth-of-type(1) > p:nth-of-type(1) {
+  color: #e7bc0e;
+  font-family: "Santio", cursive;
+  margin-left: 5em;
+  margin-bottom: 20em;
+  font-size: 1.5em;
+}
+
+section:nth-of-type(1) > p:nth-of-type(1) {
+  color: #e7bc0e;
+  font-family: "Mr Dafoe";
+  font-size: 2.5em;
+  text-shadow: 2px 2px black;
+}
+
+section:nth-of-type(1) > p:nth-of-type(1)::after {
+  content: " V ";
+  font-family: "Fira sans", sans serif;
+  font-weight:100;
+  font-size: 0.75em;
+  padding: 1.25em;
+}
+
+/* Main p tag */
+
+section > p:nth-of-type(2) {
+  font-size: 3em;
+  word-spacing: 0.1em;
+  color: #6bc1a3;
+  text-shadow: 2px 2px black;
+  line-height: 1.4em;
+  font-family: "Santio_bold", sans-serif;
+  margin-left: 8em;
+  width: 65%;
+}
+
+section:nth-of-type(1) > p:nth-of-type(2) > span:nth-of-type(1) {
+  background: rgb(34, 34, 34);
+  color: #fff;
+  padding: 0.1em 0.2em 0.2em 0.1em;
+}
+
+section div {
+  margin-left: 30%;
+}
+
+section > div > img {
+  width: 5em;
+  height: 5em;
+  padding-bottom: 15px;
+  margin-top: 20em;
+  text-shadow: 2px 2px black;
+}
+
+section > div:nth-of-type(1) > p:nth-of-type(1) {
+  color: #e7bc0e;
+  text-transform: uppercase;
+  font-family: "Santio_bold", sans-serif;
+  text-shadow: 2px 2px black;
+  margin-bottom: 0;
+}
+
+section > div:nth-of-type(1) > p:nth-of-type(2) {
+  color: #e7bc0e;
+  text-transform: uppercase;
+  text-shadow: 2px 2px black;
+  font-family: "Santio_bold", sans-serif;
+  margin-top: 0;
+  font-size: 1.3em;
+}
+
+section > div:nth-of-type(1) > p:nth-of-type(2) > span:nth-of-type(1) {
+  background: rgb(34, 34, 34);
+  color: #fff;
+}
+
+section div p:nth-of-type(1)::first-line {
+  font-size: 5em;
+}
+
+/* DIV 2 */
+
+section div:nth-of-type(2) p:nth-of-type(1) span {
+  background: rgb(34, 34, 34);
+  color: #fff;
+}
+
+section div:nth-of-type(2) p:nth-of-type(1) {
+  color: #cb91b6;
+  text-transform: uppercase;
+  font-family: "Santio_bold", sans-serif;
+  text-shadow: 2px 2px black;
+  margin-bottom: 0;
+  font-size: 0.3em;
+}
+
+section > div:nth-of-type(2) p:nth-of-type(2) {
+  color: #cb91b6;
+  font-family: "Santio_bold", sans-serif;
+  text-shadow: 2px 2px black;
+  margin: 0;
+  font-size: 5em;
+}
+
+/* DIV 3 */
+
+section > div:nth-of-type(3) > p:nth-of-type(1) {
+  color: #6bc1a3;
+  text-transform: uppercase;
+  font-family: "Santio_bold", sans-serif;
+  text-shadow: 2px 2px black;
+  font-size: 1.5em;
+  margin-bottom: -1.5em;
+}
+
+section div:nth-of-type(3) p:nth-of-type(2) {
+  color: #6bc1a3;
+  text-shadow: 2px 2px black;
+  font-family: "Santio_bold", sans-serif;
+  font-size: 2em;
+  margin-bottom: 20em;
+}
+
+section div:nth-of-type(3) > p:nth-of-type(2) > span {
+  background: rgb(34, 34, 34);
+  color: #fff;
+}
+
+/* P AFTER DIV TAGS */
+
+section > p:nth-of-type(3) {
+  color: #7eb8e1;
+  text-shadow: 2px 2px black;
+  font-family: "Santio_bold", sans-serif;
+  font-size: 2.2em;
+  line-height: 2em;
+  margin-bottom: 5em;
+  margin-left: 30%;
+  width: 800px;
+}
+
+section > p:nth-of-type(3) > span {
+  background: rgb(34, 34, 34);
+  color: #fff;
+}
+
+article {
+  background-image: url(../img/see.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  background-color:lightblue;
+  );
+}
+
+article > div {
+  background: url(../img/kid.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+}
+
+#help div {
+  background: black;
+  color: #fff;
+  margin: 0;
+  padding: 5em 3em;
+}
+
+#help > div > p {
+  font-family: "Santio_bold", sans-serif;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+#help > div > a {
+  font-family: "Fira sans", sans-serif;
+
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  width: 15%;
+}
+
+#help > div > a:hover {
+  opacity: 80%;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+footer a {
+  font-family: "Roboto", sans-serif;
+  color: #6bc1a3;
+  text-decoration: none;
+}
+
+footer a:hover {
+  opacity: 80%;
+}
