@@ -1,12 +1,7 @@
-
-
-
 @font-face {
-  font-family: "Santio_bold";
-  src: url("../fonts/Santio_bold.otf");
+  font-family: "santio";
+  src: url("../fonts/santio.otf");
 }
-
-
 
 body {
   margin: 0;
@@ -46,7 +41,6 @@ section {
   background-position: center;
   position: relative;
   padding-bottom: 200px;
-  
 }
 
 section:nth-of-type(1) > h1 {
@@ -54,7 +48,7 @@ section:nth-of-type(1) > h1 {
   text-shadow: 2px 2px black;
   margin-left: 3em;
   font-size: 4em;
-  font-family: "Santio_bold", sans-serif;
+  font-family: "santio", sans-serif;
   font-weight: 200;
   margin-top: 0;
   width: 50%;
@@ -62,7 +56,7 @@ section:nth-of-type(1) > h1 {
 
 section:nth-of-type(1) > p:nth-of-type(1) {
   color: #e7bc0e;
-  font-family: "Santio", cursive;
+  font-family: "santio", cursive;
   margin-left: 5em;
   margin-bottom: 20em;
   font-size: 1.5em;
@@ -78,7 +72,7 @@ section:nth-of-type(1) > p:nth-of-type(1) {
 section:nth-of-type(1) > p:nth-of-type(1)::after {
   content: " V ";
   font-family: "Fira sans", sans serif;
-  font-weight:100;
+  font-weight: 100;
   font-size: 0.75em;
   padding: 1.25em;
 }
@@ -91,7 +85,7 @@ section > p:nth-of-type(2) {
   color: #6bc1a3;
   text-shadow: 2px 2px black;
   line-height: 1.4em;
-  font-family: "Santio_bold", sans-serif;
+  font-family: "santio", sans-serif;
   margin-left: 8em;
   width: 65%;
 }
@@ -117,7 +111,7 @@ section > div > img {
 section > div:nth-of-type(1) > p:nth-of-type(1) {
   color: #e7bc0e;
   text-transform: uppercase;
-  font-family: "Santio_bold", sans-serif;
+  font-family: "santio", sans-serif;
   text-shadow: 2px 2px black;
   margin-bottom: 0;
 }
@@ -126,7 +120,7 @@ section > div:nth-of-type(1) > p:nth-of-type(2) {
   color: #e7bc0e;
   text-transform: uppercase;
   text-shadow: 2px 2px black;
-  font-family: "Santio_bold", sans-serif;
+  font-family: "santio", sans-serif;
   margin-top: 0;
   font-size: 1.3em;
 }
@@ -150,7 +144,7 @@ section div:nth-of-type(2) p:nth-of-type(1) span {
 section div:nth-of-type(2) p:nth-of-type(1) {
   color: #cb91b6;
   text-transform: uppercase;
-  font-family: "Santio_bold", sans-serif;
+  font-family: "Santio", sans-serif;
   text-shadow: 2px 2px black;
   margin-bottom: 0;
   font-size: 0.3em;
@@ -158,7 +152,7 @@ section div:nth-of-type(2) p:nth-of-type(1) {
 
 section > div:nth-of-type(2) p:nth-of-type(2) {
   color: #cb91b6;
-  font-family: "Santio_bold", sans-serif;
+  font-family: "Santio", sans-serif;
   text-shadow: 2px 2px black;
   margin: 0;
   font-size: 5em;
@@ -169,7 +163,7 @@ section > div:nth-of-type(2) p:nth-of-type(2) {
 section > div:nth-of-type(3) > p:nth-of-type(1) {
   color: #6bc1a3;
   text-transform: uppercase;
-  font-family: "Santio_bold", sans-serif;
+  font-family: "Santio", sans-serif;
   text-shadow: 2px 2px black;
   font-size: 1.5em;
   margin-bottom: -1.5em;
@@ -178,7 +172,7 @@ section > div:nth-of-type(3) > p:nth-of-type(1) {
 section div:nth-of-type(3) p:nth-of-type(2) {
   color: #6bc1a3;
   text-shadow: 2px 2px black;
-  font-family: "Santio_bold", sans-serif;
+  font-family: "Santio", sans-serif;
   font-size: 2em;
   margin-bottom: 20em;
 }
@@ -193,7 +187,7 @@ section div:nth-of-type(3) > p:nth-of-type(2) > span {
 section > p:nth-of-type(3) {
   color: #7eb8e1;
   text-shadow: 2px 2px black;
-  font-family: "Santio_bold", sans-serif;
+  font-family: "Santio", sans-serif;
   font-size: 2.2em;
   line-height: 2em;
   margin-bottom: 5em;
@@ -212,8 +206,7 @@ article {
   background-size: cover;
   background-position: center;
   height: 120vh;
-  background-color:lightblue;
-  );
+  background-color: lightblue;
 }
 
 article > div {
@@ -232,7 +225,7 @@ article > div {
 }
 
 #help > div > p {
-  font-family: "Santio_bold", sans-serif;
+  font-family: "Santio", sans-serif;
   font-size: 2em;
   line-height: 1.2em;
 }
